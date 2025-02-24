@@ -62,8 +62,9 @@ function Profile() {
     if (userImg.length === 0) {
       dispatch(
         addImage({
-          bgImage: "/src/assets/images/card-bg.svg",
-          profileImage: "/src/assets/images/user.svg",
+          bgImage:
+            "https://static.licdn.com/aero-v1/sc/h/55k1z8997gh8dwtihm11aajyq",
+          profileImage: "/public/assets/images/user.svg",
           timestamp: new Date().toISOString(),
         })
       );
@@ -151,7 +152,7 @@ function Profile() {
                     src={
                       userImg.length > 0
                         ? userImg[userImg.length - 1].bgImage
-                        : "/src/assets/images/card-bg.svg"
+                        : ""
                     }
                     alt="card-bg"
                     className="h-[150px] w-full"
@@ -174,12 +175,12 @@ function Profile() {
                   id="profileImage"
                   name="profileImage"
                 />
-                <div className="bg-[url(\src\assets\images\user.svg)] bg-cover bg-center h-[54px] m-[-12px -12px 0] bg-[length:465px] ">
+                <div className="bg-[url()] bg-cover bg-center h-[54px] m-[-12px -12px 0] bg-[length:465px] ">
                   <img
                     src={
                       userImg.length > 0
                         ? userImg[userImg.length - 1].profileImage
-                        : "/src/assets/images/user.svg"
+                        : ""
                     }
                     alt="user-photo"
                     className="md:h-50 md:w-50 h-40 w-40 ml-6 rounded-full "
@@ -302,7 +303,7 @@ function Profile() {
                       </span>
                       <div className="flex items-center pb-6">
                         <img
-                          src="\src\assets\images\feed-icon.svg"
+                          src="/public/assets/images/feed-icon.svg"
                           alt="info-icon"
                           className="h-4 w-4"
                         />
@@ -627,7 +628,7 @@ function Profile() {
                 <div className="[box-shadow:inset_0_0_0_1px_#E5E7EB] rounded-md m-3 p-3">
                   <div className="flex items-center ml-6 mt">
                     <img
-                      src="\src\assets\images\whichwork.svg.svg"
+                      src="/public/assets/images/whichwork.svg"
                       alt="work-icon"
                       className="h-15 w-15"
                     />
@@ -646,7 +647,7 @@ function Profile() {
                 <div className="[box-shadow:inset_0_0_0_1px_#E5E7EB] rounded-md m-3 p-3">
                   <div className="flex items-center ml-6 mt">
                     <img
-                      src="\src\assets\images\camera.svg.svg"
+                      src="/public/assets/images/camera.svg"
                       alt="work-icon"
                       className="h-15 w-15"
                     />
@@ -810,7 +811,11 @@ function Profile() {
               >
                 <div className="flex justify-evenly mt-5">
                   <img
-                    src={post.post_user_image}
+                    src={
+                      userImg.length > 0
+                        ? userImg[userImg.length - 1].profileImage
+                        : "/public/assets/images/user.svg"
+                    }
                     alt="user-logo"
                     className="h-12 w-12 rounded-full items-center ml-3 mb-6 mt-0 sm:h-20 sm:w-20"
                   />
@@ -1104,7 +1109,7 @@ function Profile() {
             <div className="border-b-2 border-[#E5E7EB] m-3">
               <div className=" flex justify-start items-center ml-6">
                 <img
-                  src="\src\assets\images\user.svg"
+                  src="/public/assets/images/user.svg"
                   alt="user-logo"
                   className="h-10 w-10 md:h-16 md:w-16 rounded-full"
                 />
@@ -1152,7 +1157,7 @@ function Profile() {
             <div className="border-b-2 border-[#E5E7EB] m-3">
               <div className=" flex justify-start items-center ml-6 -mt-12">
                 <img
-                  src="\src\assets\images\user.svg"
+                  src="/public/assets/images/user.svg"
                   alt="user-logo"
                   className="h-10 w-10 md:h-16 md:w-16 rounded-full"
                 />

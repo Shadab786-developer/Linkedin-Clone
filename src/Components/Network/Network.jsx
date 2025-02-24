@@ -221,7 +221,7 @@ function Network() {
             <div className="border-b-2 border-[#E5E7EB] pb-2 m-3">
               <div className=" flex justify-between items-center px-3">
                 <img
-                  src="\src\assets\images\user.svg"
+                  src="/public/assets/images/user.svg"
                   alt="user-logo"
                   className="h-10 w-10 md:h-16 md:w-16 rounded-full"
                 />
@@ -243,7 +243,7 @@ function Network() {
             <div className="border-b-2 border-[#E5E7EB] pb-2 m-3">
               <div className=" flex justify-between items-center px-3">
                 <img
-                  src="\src\assets\images\user.svg"
+                  src="/public/assets/images/user.svg"
                   alt="user-logo"
                   className="h-10 w-10 md:h-16 md:w-16 rounded-full"
                 />
@@ -265,7 +265,7 @@ function Network() {
             <div className="border-b-2 border-[#E5E7EB] pb-2 m-3">
               <div className=" flex justify-between items-center px-3">
                 <img
-                  src="\src\assets\images\user.svg"
+                  src="/public/assets/images/user.svg"
                   alt="user-logo"
                   className="h-10 w-10 md:h-16 md:w-16 rounded-full"
                 />
@@ -327,7 +327,7 @@ function Network() {
             <div className="">
               <div className="flex justify-center items-start ml-6">
                 <div className="flex m-3">
-                  <img src="\src\assets\images\puzzel2 (1).svg" alt="" />
+                  <img src="/public/assets/images/puzzel2 (1).svg" alt="" />
                   <span className="text-[15px] text-black ml-2">
                     Tango
                     <br />
@@ -337,7 +337,7 @@ function Network() {
                   </span>
                 </div>
                 <div className="flex justify-between items-center m-3">
-                  <img src="\src\assets\images\puzzel2 (2).svg" alt="" />
+                  <img src="/public/assets/images/puzzel2 (2).svg" alt="" />
                   <span className="text-[15px] text-black ml-2">
                     Queens
                     <br />
@@ -347,7 +347,7 @@ function Network() {
                   </span>
                 </div>
                 <div className="flex justify-between items-center m-3">
-                  <img src="\src\assets\images\puzzel2 (3).svg" alt="" />
+                  <img src="/public/assets/images/puzzel2 (3).svg" alt="" />
                   <span className="text-[15px] text-black ml-2">
                     Pinpoint
                     <br />
@@ -358,7 +358,7 @@ function Network() {
                   </span>
                 </div>
                 <div className="flex items-center m-3">
-                  <img src="\src\assets\images\puzzel4.svg" alt="" />
+                  <img src="/public/assets/images/puzzel4.svg" alt="" />
                   <span className="text-[15px] text-black ml-2">
                     Crossclimb
                     <br />
@@ -383,7 +383,7 @@ function Network() {
               <div className="text-center h-fit w-40 text-wrap m-4">
                 <div className="bg-[url(\src\assets\images\card-bg.svg)] bg-cover bg-center h-[54px] m-[-12px -12px 0] bg-[length:465px] flex ">
                   <img
-                    src="\src\assets\images\card-bg.svg"
+                    src="/public/assets/images/card-bg.svg"
                     alt="card-bg"
                     className="sm:h-fit w-fit"
                   />
@@ -392,9 +392,9 @@ function Network() {
                   </button>
                 </div>
 
-                <div className="bg-[url(\src\assets\images\user.svg)] bg-cover bg-center h-[54px] m-[-12px -12px 0] bg-[length:465px] ">
+                <div className="bg-[url(/public/assets/images/card-bg.svg)] bg-cover bg-center h-[54px] m-[-12px -12px 0] bg-[length:465px] ">
                   <img
-                    src="\src\assets\images\user.svg"
+                    src="/public/assets/images/user.svg"
                     alt="user-photo"
                     className="h-15 w-15 ml-12 -mt-11 rounded-full "
                   />
@@ -417,9 +417,9 @@ function Network() {
                 </button>
               </div>
               <div className="text-center h-fit w-40 text-wrap m-4">
-                <div className="bg-[url(\src\assets\images\card-bg.svg)] bg-cover bg-center h-[54px] m-[-12px -12px 0] bg-[length:465px] flex ">
+                <div className="bg-[url(/public/assets/images/card-bg.svg)] bg-cover bg-center h-[54px] m-[-12px -12px 0] bg-[length:465px] flex ">
                   <img
-                    src="\src\assets\images\card-bg.svg"
+                    src="/public/assets/images/card-bg.svg"
                     alt="card-bg"
                     className="sm:h-fit w-fit"
                   />
@@ -428,9 +428,9 @@ function Network() {
                   </button>
                 </div>
 
-                <div className="bg-[url(\src\assets\images\user.svg)] bg-cover bg-center h-[54px] m-[-12px -12px 0] bg-[length:465px] ">
+                <div className="bg-[url()] bg-cover bg-center h-[54px] m-[-12px -12px 0] bg-[length:465px] ">
                   <img
-                    src="\src\assets\images\user.svg"
+                    src="/public/assets/images/user.svg"
                     alt="user-photo"
                     className="h-15 w-15 ml-12 -mt-11 rounded-full "
                   />
@@ -453,9 +453,9 @@ function Network() {
                 </button>
               </div>
               <div className="text-center h-fit w-40 text-wrap m-4">
-                <div className="bg-[url(\src\assets\images\card-bg.svg)] bg-cover bg-center h-[54px] m-[-12px -12px 0] bg-[length:465px] flex ">
+                <div className="bg-[url(/public/assets/images/card-bg.svg)] bg-cover bg-center h-[54px] m-[-12px -12px 0] bg-[length:465px] flex ">
                   <img
-                    src="\src\assets\images\card-bg.svg"
+                    src="/public/assets/images/card-bg.svg"
                     alt="card-bg"
                     className="sm:h-fit w-fit"
                   />
@@ -464,9 +464,9 @@ function Network() {
                   </button>
                 </div>
 
-                <div className="bg-[url(\src\assets\images\user.svg)] bg-cover bg-center h-[54px] m-[-12px -12px 0] bg-[length:465px] ">
+                <div className="bg-[url()] bg-cover bg-center h-[54px] m-[-12px -12px 0] bg-[length:465px] ">
                   <img
-                    src="\src\assets\images\user.svg"
+                    src="/public/assets/images/user.svg"
                     alt="user-photo"
                     className="h-15 w-15 ml-12 -mt-11 rounded-full "
                   />

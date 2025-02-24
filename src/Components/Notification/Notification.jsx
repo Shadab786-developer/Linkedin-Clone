@@ -164,13 +164,13 @@ function Notification() {
                     src={
                       userImg.length > 0
                         ? userImg[userImg.length - 1].bgImage
-                        : "/src/assets/images/card-bg.svg"
+                        : "/public/assets/images/card-bg.svg"
                     }
                     alt="card-bg"
                     className="sm:h-[90px] sm:w-full"
                   />
                 </div>
-                <div className="bg-[url(\src\assets\images\user.svg)] bg-cover bg-center h-[54px] m-[-12px -12px 0] bg-[length:465px] ">
+                <div className="bg-[url()] bg-cover bg-center h-[54px] m-[-12px -12px 0] bg-[length:465px] ">
                   <input
                     type="file"
                     accept="image/*"
@@ -182,7 +182,7 @@ function Notification() {
                     src={
                       userImg.length > 0
                         ? userImg[userImg.length - 1].profileImage
-                        : "/src/assets/images/user.svg"
+                        : "/public/assets/images/user.svg"
                     }
                     alt="user-photo"
                     className="h-20 w-20 md:h-30 md:w-30 ml-6 rounded-full "
@@ -334,7 +334,7 @@ function Notification() {
                   Post a notify for free with Linkedin notifys
                 </span>
                 <img
-                  src="\src\assets\images\home-logo.svg"
+                  src="/public/assets/images/home-logo.svg"
                   alt="Linkedin-logo"
                   className="h-30 w-30 m-2.5"
                 />

@@ -32,7 +32,7 @@ function Jobs() {
     if (userImg.length === 0) {
       dispatch(
         addImage({
-          profileImage: "/src/assets/images/user.svg",
+          profileImage: "",
           timestamp: new Date().toISOString(),
         })
       );
@@ -223,7 +223,7 @@ Business Development Manager`,
                   src={
                     userImg.length > 0
                       ? userImg[userImg.length - 1].bgImage
-                      : "/src/assets/images/card-bg.svg"
+                      : "/public/assets/images/card-bg.svg"
                   }
                   alt="card-bg"
                   className="h-[150px] w-full"
@@ -237,12 +237,12 @@ Business Development Manager`,
                 id="profileImage"
                 name="profileImage"
               />
-              <div className="bg-[url(\src\assets\images\user.svg)] bg-cover bg-center h-[54px] m-[-12px -12px 0] bg-[length:465px] ">
+              <div className="bg-[url()] bg-cover bg-center h-[54px] m-[-12px -12px 0] bg-[length:465px] ">
                 <img
                   src={
                     userImg.length > 0
                       ? userImg[userImg.length - 1].profileImage
-                      : "/src/assets/images/user.svg"
+                      : "/public/assets/images/user.svg"
                   }
                   alt="user-photo"
                   className="md:h-30 md:w-30 h-20 w-20 ml-6 mt-14 rounded-full "
@@ -391,7 +391,7 @@ Business Development Manager`,
           </ul>
           <div className="flex mt-3 justify-center items-center">
             <img
-              src="\src\assets\images\login-logo.svg"
+              src="/public/assets/images/login-logo.svg"
               alt="linkedin-logo"
               className="h-9 w-9 mt-7"
             />
@@ -414,7 +414,7 @@ Business Development Manager`,
               </p>
               <div className="flex justify-between items-center m-4 border-b-2 border-b-[rgba(0,0,0,0.2)] pb-4">
                 <img
-                  src="\src\assets\images\whichwork.svg.svg"
+                  src="/public/assets/images/whichwork.svg"
                   alt="work-icon"
                   className="h-15 w-15"
                 />
@@ -536,7 +536,7 @@ Business Development Manager`,
             <div className="border-b-2 border-[#E5E7EB] m-3">
               <div className=" flex justify-start items-center ml-6">
                 <img
-                  src="\src\assets\images\user.svg"
+                  src="/public/assets/images/user.svg"
                   alt="user-logo"
                   className="h-20 w-20 md:h-25 md:w-25 rounded-full"
                 />

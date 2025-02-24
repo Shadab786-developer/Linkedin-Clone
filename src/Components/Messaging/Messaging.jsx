@@ -22,7 +22,7 @@ function Messaging() {
                   </div>
                   <div className="w-[40px] rounded-[0 2px 2px 0] absolute top-3 left-0.5 flex justify-center m-0 pointer-events-none items-center  ">
                     <img
-                      src="\src\assets\images\search-icon.svg"
+                      src="/public/assets/images/search-icon.svg"
                       alt="search-icon"
                     />
                   </div>

@@ -59,7 +59,7 @@ function Home() {
     if (userImg.length === 0) {
       dispatch(
         addImage({
-          profileImage: "/src/assets/images/user.svg",
+          profileImage: "",
           timestamp: new Date().toISOString(),
         })
       );
@@ -161,7 +161,7 @@ function Home() {
                     src={
                       userImg.length > 0
                         ? userImg[userImg.length - 1].bgImage
-                        : "/src/assets/images/card-bg.svg"
+                        : "/public/assets/images/card-bg.svg"
                     }
                     alt="card-bg"
                     className="h-[90px] sm:h-[100px] w-full md:h-[110px]"
@@ -175,12 +175,12 @@ function Home() {
                   id="profileImage"
                   name="profileImage"
                 />
-                <div className="bg-[url(\src\assets\images\user.svg)] bg-cover bg-center h-[54px] m-[-12px -12px 0] bg-[length:465px] ">
+                <div className="bg-[url()] bg-cover bg-center h-[54px] m-[-12px -12px 0] bg-[length:465px] ">
                   <img
                     src={
                       userImg.length > 0
                         ? userImg[userImg.length - 1].profileImage
-                        : "/src/assets/images/user.svg"
+                        : "/public/assets/images/user.svg"
                     }
                     alt="user-photo"
                     className="h-20 w-20 md:h-30 md:w-30 ml-6 rounded-full "
@@ -268,7 +268,10 @@ function Home() {
             </div>
             <div className="overflow-hidden mb-2 bg-white rounded-md transition-[box-shadow 83ms] relative border-none [box-shadow:0_0_0_1px_rgb(0_0_0_/15%),0_0_0_rgb(0_0_0_/20%)] ">
               <div className="flex ml-6">
-                <img src="\src\assets\images\item-icon.svg" alt="save-logo" />
+                <img
+                  src="/public/assets/images/item-icon.svg"
+                  alt="save-logo"
+                />
                 <span className="text-[16px] font-sans font-semibold ml-2.5">
                   Saved items
                 </span>
@@ -325,7 +328,7 @@ function Home() {
                   src={
                     userImg.length > 0
                       ? userImg[userImg.length - 1].profileImage
-                      : "/src/assets/images/user.svg"
+                      : ""
                   }
                   alt="user-logo"
                   className="h-20 w-20 sm:h-20 sm:w-20 ml-6 rounded-full sm:ml-3 sm:mr-2"
@@ -406,7 +409,7 @@ function Home() {
               <span className="text-[9px] text-[rgba(0,0,0,0.9)] flex items-center">
                 Top
                 <img
-                  src="\src\assets\images\down-icon.svg"
+                  src="/public/assets/images/down-icon.svg"
                   alt="down-arrow"
                   className="h-2 w-2"
                 />
@@ -433,7 +436,7 @@ function Home() {
                           src={
                             userImg.length > 0
                               ? userImg[userImg.length - 1].profileImage
-                              : "/src/assets/images/user.svg"
+                              : "/public/assets/images/user.svg"
                           }
                           alt="user-logo"
                           className="h-20 w-20 sm:h-20 sm:w-20 ml-2 rounded-full sm:ml-2 sm:mr-2"
@@ -623,7 +626,7 @@ function Home() {
                       src={
                         post.post_user_image || userImg.length > 0
                           ? userImg[userImg.length - 1].profileImage
-                          : "/src/assets/images/card-bg.svg"
+                          : "/public/assets/images/user.svg"
                       }
                       alt="user-logo"
                       className="h-12 w-12 rounded-full items-center ml-3 mr-2 mb-6 mt-0 sm:h-20 sm:w-20"
@@ -788,9 +791,9 @@ function Home() {
                 <h1 className="text-[20px] text-black font-semibold mb-1.5  flex justify-between text-nowrap">
                   Trending Now
                   <img
-                    src="\src\assets\images\feed-icon.svg"
+                    src="/public/assets/images/feed-icon.svg"
                     alt=""
-                    className="mr-1"
+                    className="mr-10"
                   />
                 </h1>
                 <p className="text-[15px] text-[rgba(0,0,0,0.5)] ">

@@ -47,7 +47,7 @@ function Header() {
         {/* Logo */}
         <span className="mr-2 text-[0px] ">
           <Link to={"/Home"}>
-            <img src="\src\assets\images\home-logo.svg" alt="Home-logo" />
+            <img src="/assets/images/home-logo.svg" alt="Home-logo" />
           </Link>
         </span>
         {/* Search bar */}
@@ -60,7 +60,10 @@ function Header() {
             />
           </div>
           <div className="w-[40px] rounded-[0 2px 2px 0] absolute top-3 left-0.5 flex justify-center m-0 pointer-events-none items-center  ">
-            <img src="\src\assets\images\search-icon.svg" alt="search-icon" />
+            <img
+              src="/public/assets/images/search-icon.svg"
+              alt="search-icon"
+            />
           </div>
         </div>
         {/* Navigation links */}
@@ -234,7 +237,7 @@ function Header() {
                   src={
                     userImg.length > 0
                       ? userImg[userImg.length - 1].profileImage
-                      : "/src/assets/images/user.svg"
+                      : ""
                   }
                   alt="user-logo"
                   className="h-8 w-8 rounded-full items-center"
@@ -242,7 +245,7 @@ function Header() {
                 <span className="text-[rgba(0,0,0,0.6)] flex">
                   Me
                   <img
-                    src="\src\assets\images\down-icon.svg"
+                    src="/public/assets/images/down-icon.svg"
                     alt="down-arrow"
                   />
                 </span>
@@ -253,7 +256,7 @@ function Header() {
                         src={
                           userImg.length > 0
                             ? userImg[userImg.length - 1].profileImage
-                            : "/src/assets/images/user.svg"
+                            : ""
                         }
                         alt="user-logo"
                         className="h-18 w-18 rounded-full items-center"
@@ -335,11 +338,11 @@ function Header() {
                   "items-center bg-transparent flex flex-col text-[10px] font-normal justify-center leading-[1.5] min-h-[42px] min-w-[80px] relative left-4 text-nowrap"
                 }
               >
-                <img src="\src\assets\images\nav-work.svg" alt="user-logo" />
+                <img src="assets/images/nav-work.svg" alt="user-logo" />
                 <span className="text-[rgba(0,0,0,0.6)] flex">
                   For Business
                   <img
-                    src="\src\assets\images\down-icon.svg"
+                    src="/public/assets/images/down-icon.svg"
                     alt="down-arrow"
                   />
                 </span>
@@ -491,7 +494,7 @@ function Header() {
                 <span className="text-[rgba(0,0,0,0.6)] flex">
                   Try Premium for 0
                   <img
-                    src="\src\assets\images\down-icon.svg"
+                    src="/public/assets/images/down-icon.svg"
                     alt="down-arrow"
                   />
                 </span>

@@ -30,7 +30,7 @@ function Login() {
         </h1>
 
         <img
-          src="\src\assets\images\login-hero.svg"
+          src="/public/assets/images/login-hero.svg"
           alt="home-logo"
           className="sm:w-[700px] sm:h-[670px] sm:absolute sm:-bottom-0.5 sm:-right-36 top-56 w-auto h-auto static"
         />
@@ -40,7 +40,7 @@ function Login() {
               className="flex justify-center bg-[#fff] items-center h-[56px] w-full rounded-4xl shadow-[inset_0_0_0_1px_rgb(0_0_0_/_60%)_,_inset_0_0_0_2px_rgb(0_0_0_/0%),inset_0_0_0_1px_rgb(0_0_0_/_0%)] align-middle z-0 transition-[167ms] text-[15px] sm:text-[20px] text-[rgba(0,0,0,0.6)] hover:bg-[rgba(207,207,207,0.25)] hover:text-[rgba(0,0,0,0.75)]"
               onClick={handleGoogleSignIn}
             >
-              <img src="\src\assets\images\google.svg" alt="Google-logo" />
+              <img src="/public/assets/images/google.svg" alt="Google-logo" />
               Sigh in with Google
             </button>
           </Link>

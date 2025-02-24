@@ -199,7 +199,7 @@ function Footer() {
                 }
               />
               <img
-                src="\src\assets\images\down-icon.svg"
+                src="/public/assets/images/down-icon.svg"
                 alt="down-arrow"
                 className="h-3 w-3 -ml-11 "
               />
